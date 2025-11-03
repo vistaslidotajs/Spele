@@ -37,14 +37,3 @@ footer {
       font-size: 16px;
   }
 }
-
-a {
-  position: relative;
-  display: inline-block;
-  animation: kustiba 3s infinite alternate;
-}
-
-@keyframes kustiba {
-  0% { left: 0; }
-  100% { left: 15px; }
-}
