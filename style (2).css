@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+h1, h2 {
+  color: #111;
+}
+
+img.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+figure {
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  body {
+      font-size: 16px;
+  }
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  animation: kustiba 3s infinite alternate;
+}
+
+@keyframes kustiba {
+  0% { left: 0; }
+  100% { left: 15px; }
+}
